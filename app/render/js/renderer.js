@@ -1,8 +1,8 @@
-const dragDrop = require( 'drag-drop' );
+const dragDrop = require('drag-drop');
 const { ipcRenderer } = require( 'electron' );
 
 // local dependencies
-const dom = require( './dom' );
+const dom = require( './dom.js' );
 
 /*****************************/
 

@@ -57,3 +57,4 @@ exports.displayFiles = ( files = [] ) => {
         fileListElem.appendChild( itemDomElem );
     } );
 };
+

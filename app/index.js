@@ -3,14 +3,18 @@ const path = require( 'path' );
 
 // local dependencies
 const io = require( './main/io' );
-``
+
 // open a window
 const openWindow = () => {
     const win = new BrowserWindow( {
         width: 800,
         height: 500,
+        title: "Drag N Drop Files",
+        frame: true,
         webPreferences: {
             nodeIntegration: true,
+            contextIsolation: false,
+            devTools: true,
         },
     } );
 
