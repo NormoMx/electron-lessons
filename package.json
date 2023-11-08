@@ -1,32 +1,33 @@
 {
   "name": "electron-lessons",
   "version": "1.0.0",
-  "description": "A sample Electron (JS) project for Medium lessons.",
-  "main": "app/index.js",
+  "description": "file management",
+  "main": "index.js",
   "scripts": {
-    "start": "electron .",
-    "sass:build": "node-sass app/scss -o app/css",
-    "sass:watch": "node-sass -w app/render/scss -o app/render/css"
+    "start": "electron ./app",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/course-one/electron-lessons.git"
+    "url": "git+https://github.com/NormoMx/electron_start.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "file",
+    "management"
+  ],
+  "author": "Miguel Escamilla",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/course-one/electron-lessons/issues"
+    "url": "https://github.com/NormoMx/electron_start/issues"
   },
-  "homepage": "https://github.com/course-one/electron-lessons#readme",
+  "homepage": "https://github.com/NormoMx/electron_start#readme",
   "devDependencies": {
-    "electron": "^11.1.1",
-    "node-sass": "^5.0.0"
+    "electron": "^21.3.0"
   },
   "dependencies": {
-    "chokidar": "^3.4.3",
-    "drag-drop": "^6.1.0",
-    "fs-extra": "^9.0.1",
-    "open": "^7.3.0"
+    "chokidar": "^3.5.3",
+    "drag-drop": "^7.2.0",
+    "fs-extra": "^10.1.0",
+    "open": "^8.4.0"
   }
 }
